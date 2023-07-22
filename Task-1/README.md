@@ -10,7 +10,7 @@ The following pre-requites are suggested to be known before starting out with th
 
 Read and learn about them, a write a **small detailed report** about the key understandings in brief for each topic. Explain it as you seem appropriate.
 
-Additionally, perform as instructed for the points in the bracket`[...]`.
+Additionally, perform as instructed for the points in the bracket `[...]`.
 
 ---
 
@@ -55,11 +55,8 @@ Additionally, perform as instructed for the points in the bracket`[...]`.
   - Linear Shift invariant systems
 
     - Properties, and Significance
-
     - Characterisation of LSI systems by its Impulse response
-
     - Systems in Series (Cascaded LSI systems)
-
     - Systems in Parallel
 
       [Assume two LSI systems in general and evaluate the Impusle responses in both cases]
@@ -93,14 +90,12 @@ Additionally, perform as instructed for the points in the bracket`[...]`.
   - Performs convolution between two discrete signals and demonstrate how it combines the input signals to produce the output.
 
 - Fourier analysis
+  - 
 
 - Nyquist-Shannon Sampling
   - Sampling Theorem
-
   - Aliasing
-
   - Wagon-Wheel effect (Stroboscopic effects) [Bonus]
-
     ![Wagon Wheel effect](https://static.wikia.nocookie.net/revengeristsconsortium/images/2/25/Whee.gif/revision/latest?cb=20141209071330)
 
 - Convolution theorem
@@ -133,25 +128,16 @@ Python has good support for libraries for Signal Processing and Image Processing
 ## Programming [MATLAB]
 
 - Install MATLAB
-
   - Create a **MathWorks account** / Sign in.
     https://login.mathworks.com/embedded-login/landing.html?cid=getmatlab&s_tid=gn_getml
-
     > Use **Learner ID** to access Campus License.
-
   - Use MATLAB Online, or run it locally *(recommended)*.
-
   - Download MATLAB from https://in.mathworks.com/downloads/
-
   - Login with your MathWorks account while performing MATLAB installation and proceed with the steps. It should automatically detect your **License**.
-
     - If not, then find your License number at https://in.mathworks.com/mwaccount.
-
   - Install the following **packages** and **toolboxes**
-
     - Signal Processing Toolbox
     - Image Processing Toolbox
-
 - If you're new to MATLAB, checkout the resouces in the next section and complete it before proceeding with the task.
 
 ---
@@ -183,7 +169,6 @@ Using either Python or MATLAB (or any other software/ language), perform the fol
     https://www.edx.org/course/matlab-essentials
 
   - INTRODUCTION TO MATLAB FOR ENGINEERING STUDENTS, PDF
-
     https://www.mccormick.northwestern.edu/documents/students/undergraduate/introduction-to-matlab.pdf
 
 - Introduction to Data, Signal, and Image Analysis with MATLAB, Coursera
@@ -191,9 +176,13 @@ Using either Python or MATLAB (or any other software/ language), perform the fol
   https://www.coursera.org/learn/matlab-image-processing
 
 - Signal processing (scipy.signal)
+
   https://docs.scipy.org/doc/scipy/reference/signal.html
 
 - Hands On Signal Processing with Python
+  
   https://towardsdatascience.com/hands-on-signal-processing-with-python-9bda8aad39de
+
 - Wagon-wheel effect, WikiMedia
+
   https://upload.wikimedia.org/wikipedia/commons/e/ef/The_wagon-wheel_effect.ogv
