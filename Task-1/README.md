@@ -10,19 +10,26 @@ The following pre-requites are suggested to be known before starting out with th
 
 Read and learn about them, a write a **small detailed report** about the key understandings in brief for each topic. Explain it as you seem appropriate.
 
+Additionally, perform as instructed for the points in the bracket`[...]`.
+
 ---
 
 ### TASK-1a
 
 - Signals
   - Continuous Signals, Discrete Signals
+
   - Time domain, Frequency domain
+
   - Elementary discrete signals
     - Unit impulse/ Unit sample sequence
     - Unit step sequence
     - Unit ramp sequence
     - Exponential sequences
     - Sinusoidal sequences
+
+    [Graph out the sequences, and include it's mathematical definition]
+
 - Basic operations on discrete-time signals
 
   - Amplitude scaling
@@ -34,6 +41,9 @@ Read and learn about them, a write a **small detailed report** about the key und
   - Time scaling
   - Time reversal/ reflection
   - Precedence rule for time-shifting and time-scaling
+
+    [Perform both (a) Time-shifting followed by Time-Scaling, and (b) Time-scaling followed by Time-shifting, and observe and illustrate the differences]
+
 - Systems
   - Properties
     - Linearity property, and it's significance
@@ -41,8 +51,19 @@ Read and learn about them, a write a **small detailed report** about the key und
     - Memory
     - Causality
     - Stability
+
   - Linear Shift invariant systems
+
+    - Properties, and Significance
+
     - Characterisation of LSI systems by its Impulse response
+
+    - Systems in Series (Cascaded LSI systems)
+
+    - Systems in Parallel
+
+      [Assume two LSI systems in general and evaluate the Impusle responses in both cases]
+
 - Filters
   - Types
     - Low Pass Filters
@@ -50,23 +71,38 @@ Read and learn about them, a write a **small detailed report** about the key und
     - Band Pass Filters
     - Band Stop Filters
   - What characterises a filter?
-  - What is the purpose of a filter in signal processing? Explain how filters can modify the frequency content of a signal.
-  - What are the key characteristics of filters? Describe concepts such as passband, stopband, cutoff frequency, filter order, and filter response.
-  - What are the different types of filters commonly used in signal processing? Compare and contrast finite impulse response (FIR) filters and infinite impulse response (IIR) filters.
-    - Limitations and usage of both
+    - How can filters modify the frequency content of a signal?
+  - What is the purpose of a filter in signal processing?
+  - Key characteristics of filters
+    - Passband
+    - Stopband
+    - Cutoff frequency
+    - Filter order
+    - Filter response
+  - Finite impulse response (FIR) filters, Infinite impulse response (IIR) filters
+    - Limitations and Usage of both
+
 - Convolution
-  - Performs convolution between two discrete signals and demonstrate how it combines the input signals to produce the output.
-  - Learn the concepts of convolution and filtering by applying these filters to signals
   - Mathematical definition
   - Evaluation methods
     - Manual evaluation
-      - Overlap Add method
-      - Overlap Save method
+    - Overlap Add method [Bonus]
+    - Overlap Save method [Bonus]
     - Computer evaluation [Bonus]
   - Convolution and linear time-invariant (LTI) systems: Study how convolution relates to LTI systems and their properties, including time-invariance, linearity, and causality.
+  - Performs convolution between two discrete signals and demonstrate how it combines the input signals to produce the output.
+
 - Fourier analysis
+
 - Nyquist-Shannon Sampling
   - Sampling Theorem
+
+  - Aliasing
+
+  - Wagon-Wheel effect (Stroboscopic effects) [Bonus]
+
+    ![Wagon Wheel effect](https://static.wikia.nocookie.net/revengeristsconsortium/images/2/25/Whee.gif/revision/latest?cb=20141209071330)
+
 - Convolution theorem
   - Fourier transform of the convolution of two signals is equal to the pointwise multiplication of their Fourier transforms.
 
@@ -107,7 +143,7 @@ Python has good support for libraries for Signal Processing and Image Processing
 
   - Download MATLAB from https://in.mathworks.com/downloads/
 
-  - Login with your MathWorks account while performing MATLAB installation and proceed with the steps. It should automatically detect your **License**. 
+  - Login with your MathWorks account while performing MATLAB installation and proceed with the steps. It should automatically detect your **License**.
 
     - If not, then find your License number at https://in.mathworks.com/mwaccount.
 
@@ -122,8 +158,9 @@ Python has good support for libraries for Signal Processing and Image Processing
 
 ### TASK-1b
 
+Using either Python or MATLAB (or any other software/ language), perform the following operations.
+
 1. Signal Generation and Visualization
-2. 
 
 ---
 
@@ -158,4 +195,5 @@ Python has good support for libraries for Signal Processing and Image Processing
 
 - Hands On Signal Processing with Python
   https://towardsdatascience.com/hands-on-signal-processing-with-python-9bda8aad39de
-- 
+- Wagon-wheel effect, WikiMedia
+  https://upload.wikimedia.org/wikipedia/commons/e/ef/The_wagon-wheel_effect.ogv
