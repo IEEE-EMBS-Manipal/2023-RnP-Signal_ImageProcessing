@@ -3,5 +3,5 @@ Research &amp; Projects wing, Signal &amp; Image Processing domain, 2023
 
 ## Navigating
 
-- Tasks are available in the 'Tasks' folders.
+- Tasks are available in the 'Task-\*' folders.
 - Installation instruction
